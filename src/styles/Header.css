@@ -11,8 +11,8 @@
 
 .header_logo {
   object-fit: contain;
-  height: 75px;
-  margin-left: 20px;
+  height: 60px;
+  margin: 20px;
 }
 
 .header_center {
