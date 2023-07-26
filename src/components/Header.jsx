@@ -1,21 +1,18 @@
-import React from "react";
 import { Search, Language, ExpandMore } from "@material-ui/icons";
 import { Avatar } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import Logo from "../imgs/airbnb.png";
 import { useState } from "react";
 import "../styles/Header.css";
+import React from "react";
 
-function Header() {
+const Header = () => {
   const [input, setInput] = useState("");
 
   return (
     <div className="header">
       <Link to="/">
-        <img
-          className="header_icon"
-          src="https://airbnb--anouarchlih82.repl.co/airbnb.png"
-          alt="airbnb"
-        />
+        <img className="header_logo" src={Logo} alt="airbnb" sizes="200x200" />
       </Link>
       <div className="header_center">
         <input
@@ -39,6 +36,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
 export default Header;
