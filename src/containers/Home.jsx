@@ -1,9 +1,9 @@
-import React from "react";
-import Banner from "./Banner";
-import Card from "./Card";
+import Banner from "../components/Banner";
+import Card from "../components/Card";
 import "../styles/Home.css";
+import React from "react";
 
-function Home() {
+const Home = () => {
   return (
     <div className="home">
       <Banner />
@@ -46,6 +46,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

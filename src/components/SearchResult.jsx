@@ -1,8 +1,8 @@
-import React from "react";
 import { FavoriteBorder, Star } from "@material-ui/icons";
 import "../styles/SearchResult.css";
+import React from "react";
 
-function SearchResult({
+const SearchResult = ({
   img,
   location,
   title,
@@ -10,7 +10,7 @@ function SearchResult({
   star,
   price,
   total,
-}) {
+}) => {
   return (
     <div className="searchResult">
       <img src={img} alt="" />
@@ -36,6 +36,6 @@ function SearchResult({
       </div>
     </div>
   );
-}
+};
 
 export default SearchResult;

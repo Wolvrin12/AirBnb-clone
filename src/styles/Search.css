@@ -1,54 +1,54 @@
-.search{
-    position: absolute;
-    top: 35px;
-    left: 25%;
-    width: 40vw;
-    height: 77.3vh;
-    z-index: 1;
-    border: 5px solid cornsilk;
-    border-radius: 15px;
+.search {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+  width: 40vw;
+  height: 77.3vh;
+  z-index: 1;
+  border: 5px solid cornsilk;
+  border-radius: 15px;
 }
 
-.search_clander{
-    width: 100%;
+.search_clander {
+  width: 100%;
 }
 
-.search > h2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    border-top: 2.5px solid black;
+.search > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  border-top: 2.5px solid black;
 }
 
-.search > input{
-    position: absolute;
-    width: 100%;
-    height: 30px;
-    padding: 20px;
-    left: 0;
-    top: 395px;
-    border: 2.5px solid greenyellow;
+.search > input {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  left: 0;
+  top: 395px;
+  border: 2.5px solid greenyellow;
 }
 
-.search > input:focus{
-    outline-width: 0;
+.search > input:focus {
+  outline-width: 0;
 }
 
-.search > button{
-    left: 0;
-    top: 90px;
-    text-transform: inherit !important;
-    background-color: #ff7779;
-    color: white;
-    width: 100%;
+.search > button {
+  left: 0;
+  top: 90px;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: white;
+  width: 100%;
 }
 
-.search > button:hover{
-    background-color: white;
-    color: #ff7779;
+.search > button:hover {
+  background-color: white;
+  color: #ff7779;
 }

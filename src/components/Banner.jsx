@@ -1,11 +1,11 @@
-import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Cancel } from "@material-ui/icons";
 import { Button } from "@material-ui/core";
+import React, { useState } from "react";
 import Search from "./Search";
 import "../styles/Banner.css";
 
-function Banner() {
+const Banner = () => {
   const [showSearch, setShowSearch] = useState(false);
   const [ads, setAds] = useState(true);
   const history = useHistory();
@@ -41,6 +41,6 @@ function Banner() {
       )}
     </div>
   );
-}
+};
 
 export default Banner;

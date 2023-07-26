@@ -1,7 +1,7 @@
-import React from "react";
 import "../styles/Card.css";
+import React from "react";
 
-function Card({ src, title, description, price }) {
+const Card = ({ src, title, description, price }) => {
   return (
     <div className="card">
       <img src={src} alt="" />
@@ -12,6 +12,6 @@ function Card({ src, title, description, price }) {
       </div>
     </div>
   );
-}
+};
 
 export default Card;

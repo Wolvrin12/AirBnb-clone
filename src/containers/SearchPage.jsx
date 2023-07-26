@@ -1,9 +1,9 @@
-import React from "react";
+import SearchResult from "../components/SearchResult";
 import { Button } from "@material-ui/core";
-import SearchResult from "./SearchResult";
 import "../styles/SearchPage.css";
+import React from "react";
 
-function SearchPage() {
+const SearchPage = () => {
   return (
     <div className="searchPage">
       <div className="searchPage_info">
@@ -80,6 +80,6 @@ function SearchPage() {
       />
     </div>
   );
-}
+};
 
 export default SearchPage;
